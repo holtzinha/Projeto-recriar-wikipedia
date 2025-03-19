@@ -1,0 +1,134 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.nav li, a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav ul, li, a{
+    padding: 3px;
+    padding-left: 5px;
+}
+
+.nav a:hover {
+    color: black;
+    font-weight: bold;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+}
+
+
+.anchors a:hover {
+    color: black;
+    font-weight: bold;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.anchors ul{
+    list-style: none;
+    padding: 3px;
+    padding-left: 5px;
+}
+
+.anchors p {
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.bar {
+    background-color: #fbfbf8;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+    text-align: center;
+    background-color: #fbfbf8;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+
+.logo {
+    margin: 15px;
+    padding-left: 20px;
+    display: flex;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+}
+
+.texto-wikipedia h4 {
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+
+.texto-wikipedia p {
+    margin-top: 3px;
+}
+
+.texto-wikipedia {
+    margin-left: 10px;
+}
+
+.sidebar, .anchors {
+    position: sticky;
+    top: 0; 
+    height: 100vh; 
+    overflow-y: auto; 
+}
+
+.main {
+    line-height: 25px;
+}
+
+.main li {
+    line-height: 30px;
+}
+
+.main h1 {
+    margin-top: 30px;
+}
+
+figure {
+    text-align: center;
+}
+
+h1,h2 {
+    margin-bottom: 0px;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
